@@ -1,0 +1,89 @@
+.admin-content {
+    padding-top: 74px;
+}
+@media only screen and (min-width: 993px) {
+    .admin-content {
+        margin-left: 20%;
+        width: 56%;
+    }
+}
+
+.admin-content .pagination {
+    text-align: center;
+}
+
+.admin-content h4 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*start buttons*/
+.admin-content .row-head{
+    margin-bottom: 0;
+}
+.admin-content .rowForButtons .btn {
+    margin: 17px 0 0 0;
+    color: white;
+    font-weight: 600;
+    width: 49%;
+}
+
+.admin-content .rowForButtons .btn-add, .admin-content .modal-footer .btn {
+    background-color: #a3c756;
+}
+
+.admin-content .rowForButtons .btn-add:focus {
+    background-color: #a3c756;
+}
+
+.admin-content .rowForButtons .btn-add:hover {
+    background-color: #a3c756;
+}
+
+.admin-content .rowForButtons .btn-delete, .admin-content .file-field .btn {
+    background-color: #88848B;
+}
+
+.admin-content .rowForButtons .btn-delete:focus {
+    background-color: #5E5A61;
+}
+
+.admin-content .rowForButtons .btn-delete:hover {
+    background-color: #5E5A61;
+}
+
+.admin-content .table-row-head {
+    font-weight: 600;
+}
+
+.admin-content .file-field .btn {
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+}
+
+/*end buttons*/
+
+.admin-content .modal {
+    top: 5% !important;
+    max-height: 90%;
+    min-height: 40%;
+}
+
+.admin-content .modal .row {
+    margin-bottom: 0;
+}
+.admin-content .modal-content {
+  padding-bottom: 50px;
+}
+.admin-content .modal-footer {
+    padding: 0 24px 24px 24px;
+    position: absolute;
+    bottom: 0;
+}
+
+/*start pagination*/
+.admin-content .pagination li.active {
+    background-color: #2ba8db;
+}
+
+/*end pagination*/

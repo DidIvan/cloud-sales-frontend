@@ -1,0 +1,67 @@
+{
+  "Admin Console": "Консоль Адміністратора",
+  "Logout": "Завершити сесію",
+  "Settings": "Налаштування",
+  "User Profile": "Дані користувача",
+  "Welcome to Admin Console": "Ласкаво просимо до консолі адміністратора",
+  "Goods": "Товари",
+  "Goods list": "Список товарів",
+  "Add new goods": "Додати новий товар",
+  "Description": "Інформація про товар",
+  "Picture": "Зображення",
+  "Save": "Зберегти",
+  "Reset": "Стерти все",
+  "Price": "Ціна",
+  "Title": "Назва товару",
+  "Properties": "Властивості",
+  "New Goods": "Новий товар",
+  "View Goods": "Перегляд товару",
+  "Goods properties": "Властивості товару",
+  "New property": "Нова властивість",
+  "Add new property": "Додати нову властивість",
+  "Close": "Закрити",
+  "Select one": "Виберіть зі списку",
+  "Text": "Текст",
+  "Integer": "Ціле число",
+  "Fractional number": "Дробове число",
+  "Using on filters": "Використовувати у фільтрах",
+  "Value type": "Тип значення",
+  "Append unit": "Додати одиницю вимірювання",
+  "Unit": "Одиниця вимірювання",
+  "Yes": "Так",
+  "No": "Ні",
+
+
+  "Property": "Властивість",
+  "Value": "Значення",
+  "Remove": "Видалити",
+  "Quantity": "Кількість",
+  "Add property": "Додати властивість",
+  "Measures": "Одиниці вимірювання",
+  "Goods List": "Список товарів",
+  "Display _MENU_ records per page": "Відображати _MENU_ записів на сторінці",
+  "Nothing found": "Нічого не знайдено",
+  "No records available": "Дані відсутні",
+  "Showing page _PAGE_ of _PAGES_": "Показано _PAGE_ сторінку із _PAGES_ сторінок",
+  "filtered from _MAX_ total records": "відфільтровано із _MAX_ всього записів",
+
+  "Search": "Пошук",
+  "First": "Перша",
+  "Last": "Остання",
+  "Next": "Наступна",
+  "Previous": "Попередня",
+
+
+  "Goods measures": "Одиниці вимірювання товарів",
+  "Add new measure": "Додати нову одиницю вимірювання",
+  "Name": "Ім’я",
+  "Abbreviation": "Скорочення",
+  "New measure": "Нова одиниця вимірювання",
+
+
+  "ID": "Ідентифікатор",
+  "Detail":"Детальнiше"
+
+
+
+}

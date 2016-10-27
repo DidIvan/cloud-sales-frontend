@@ -1,0 +1,70 @@
+/*override colors for inputs*/
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(139, 195, 74);
+    box-shadow: 0 1px 0 0 rgb(139, 195, 74);
+}
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid rgb(139, 195, 74);
+    box-shadow: 0 1px 0 0 rgb(139, 195, 74);
+}
+.input-field textarea.materialize-textarea:focus {
+    border-bottom: 1px solid rgb(139, 195, 74);
+    box-shadow: 0 1px 0 0 rgb(139, 195, 74);
+}
+
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid rgb(139, 195, 74);
+    box-shadow: 0 1px 0 0 rgb(139, 195, 74);
+}
+
+.input-field .prefix.active {
+    color: rgb(139, 195, 74);
+}
+
+.input-field input[type=text]:focus + label {
+    color: rgb(139, 195, 74);
+}
+
+.input-field input[type=password]:focus + label {
+    color: rgb(139, 195, 74);
+}
+
+/*color checkbox checked*/
+.input-field input[type=checkbox]:checked + label:before {
+    border-right: 2px solid rgb(139, 195, 74);
+    border-bottom: 2px solid rgb(139, 195, 74);
+}
+
+.input-field label {
+    color: #FFFFFF;
+}
+
+input[type=text] {
+    margin-bottom: 0;
+}
+
+input[type=number] {
+    margin-bottom: 0;
+}
+
+input[type=password] {
+    margin-bottom: 0;
+}
+
+.inputHeight {
+    height: 64px;
+}
+
+.errorMessage {
+    color: red;
+    /*    margin: 0 0 0 43px; for input with prefix*/
+    font-size: 14px;
+}
+
+.clearfix:after {
+    content: "."; /* добавить содержимое: "." */
+    display: block; /* сделать блоком, т.к. inline не может иметь clear */
+    clear: both; /* с обеих сторон clear */
+    visibility: hidden; /* сделать невидимым, зачем нам точка внизу? */
+    height: 0; /* сделать высоту 0, чтобы не занимал место */
+}

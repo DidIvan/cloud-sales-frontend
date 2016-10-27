@@ -1,0 +1,38 @@
+
+.wrapper {
+    width: 100%;
+    background: #2ba8db;
+    height: 100vh;
+    overflow: auto;
+}
+
+.login-page {
+}
+
+.login-form {
+    position: relative;
+    top: 15%;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    color: #FFFFFF;
+    background: #424242;
+    box-shadow: 20px -15px 20px 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.margin {
+    margin: 0;
+}
+
+.input-field button[type=submit] {
+    background-color: rgb(139, 195, 74);
+}
+
+.input-field button[type=submit]:focus {
+    background-color: rgba(139, 195, 74, .8);
+}
+
+.btn:hover {
+    background-color: rgb(152, 195, 104);
+}

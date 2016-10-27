@@ -1,0 +1,132 @@
+
+.goods-item {
+    margin-bottom: 0px;
+}
+
+.goods-item .card-panel {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 120px;
+    position: relative;
+    padding-right: 100px;
+}
+
+.goods-item .card-panel img {
+    height: 120px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.goods-item .card-panel .description {
+    line-height: 1.4em;
+    height: 2.8em;
+    overflow: hidden;
+}
+
+.goods-item .card-panel .to_detail a {
+    font-size: 14px;
+}
+
+.goods-item .card-panel .price-label {
+    position: absolute;
+    text-align: center;
+    padding: 11px;
+    height: 47px;
+    width: 80px;
+    background: #a3c756;
+    top: 0;
+    right: 0;
+    font-size: 1.125em;
+    color: #fff;
+    font-weight: 700;
+    -webkit-border-radius: 0 3px 0 0;
+    -moz-border-radius: 0 3px 0 0;
+    border-radius: 0 3px 0 0;
+}
+
+.goods-list {
+    padding-top: 80px;
+}
+
+/*-----------------goods-detail begin-------------------------*/
+.goods-detail {
+    padding-top: 80px;
+}
+
+.goods-detail .card-panel {
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px 40px;
+}
+
+.goods-detail .card-panel .row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.goods-detail .title-detail {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.goods-detail .title-detail h5 {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.goods-detail .title-detail .back {
+    margin: 10px 10px 0 0;
+    z-index: 0;
+}
+
+.goods-detail .card-image {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.goods-detail .description {
+    width: 100%;
+  /*  width: calc(100% - 310px);*/
+}
+
+.goods-detail .rating {
+    display: inline-block;
+    width: 300px;
+    font-size: 2em;
+    margin-right: 10px;
+}
+.goods-detail .rating .btn {
+    background: #a3c756!important;
+}
+
+.goods-detail .detail-property {
+    width: 300px;
+    display: inline-block;
+}
+.detail-property ul{
+    text-transform: capitalize;
+}
+.detail-property li{
+    margin: 10px 0;
+    font-size: 1.2em;
+    color:#7b7777;
+}
+
+.goods-detail .detail-feedback {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 300;
+    width: calc(100% - 310px);
+}
+
+.goods-detail .rating + .btn, .btn, .btn {
+    margin: 10px 10px 10px 0;
+    z-index: 0;
+}
+
+/*goods-detail end*/
