@@ -10,7 +10,7 @@ try {
             .env()
             .file({file: path.join(__dirname, filePath)});
     } else {
-        console.error('NODE_ENV undefined' + env + "config-default.json will be applied.");
+        console.error('NODE_ENV undefined ' + env + "config-default.json will be applied.");
         console.error('Please set NODE_ENV=' + env);
         nconf.argv()
             .env()

@@ -10,8 +10,137 @@ var AppDispatcher = require('../dispatcher/AppDispatcher'),
 
 const CHANGE_EVENT = 'change';
 
+/*TODO request 
 var _goodsList = {
         "goods": []
+    },*/
+var  _goodsList = {
+        "goods": [
+            {
+                "id": 0,
+                "name": "Kapowsin",
+                "price": "7866",
+                "quantity": 3,
+                "measurementId": 1,
+                "description": 'Description0',
+                "categoryId": 1,
+                "properties": [
+                    {
+                        "propertyId": 1,
+                        "propertyValueId": 5
+                    },
+                    {
+                        "propertyId": 2,
+                        "propertyValueId": 6
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Kapowsin",
+                "price": "6900",
+                "quantity": 5,
+                "measurementId": 2,
+                "description": 'Description1',
+                "categoryId": 1,
+                "properties": [
+                    {
+                        "propertyId": 1,
+                        "propertyValueId": 5
+                    },
+                    {
+                        "propertyId": 2,
+                        "propertyValueId": 6
+                    }
+                ]
+            }, {
+                "id": 2,
+                "name": "Kapowsin",
+                "price": "3580",
+                "quantity": 7,
+                "measurementId": 3,
+                "description": 'Description2',
+                "categoryId": 1,
+                "properties": [
+                    {
+                        "propertyId": 1,
+                        "propertyValueId": 5
+                    },
+                    {
+                        "propertyId": 2,
+                        "propertyValueId": 6
+                    }
+                ]
+            }
+        ],
+        "categoriesMap": {
+            "1": {
+                id: 1,
+                name: "Category1",
+                propertiesId: [1, 3, 4]
+            },
+            "2": {
+                id: 2,
+                name: "Category2",
+                propertiesId: [1, 2]
+            },
+            "3": {
+                id: 3,
+                name: "Category3",
+                propertiesId: [2]
+            },
+            "4": {
+                id: 4,
+                name: "Category4",
+                propertiesId: [1]
+            }
+        },
+        "measuresMap": {
+            "1": {
+                "id": 1, "name": "Штуки", "abbreviation": "Шт"
+            },
+            "2": {
+                "id": 2, "name": "Метри", "abbreviation": "м"
+            },
+            "3": {
+                "id": 3, "name": "Літри", "abbreviation": "л"
+            }
+        },
+        "propertiesMap": {
+            "1": {
+                "id": 1,
+                "name": "Колір",
+                "measurementId": 1,
+                "useForFilter": true,
+                "type": "TEXT",
+                "unit": null,
+
+            },
+            "2": {
+                "id": 2,
+                "name": "Діаметр",
+                "measurementId": 2,
+                "useForFilter": true,
+                "type": "INTEGER",
+                "unit": "\""
+            }
+        },
+        "propertyValueTypesMap": {
+            "TEXT": "Text",
+            "INTEGER": "Integer"
+        },
+        "propertiesValueMap": {
+            "1": {
+                "id": 1,
+                "value": "Червоний",
+                "type": "TEXT"
+            },
+            "2": {
+                "id": 2,
+                "value": "567",
+                "type": "INTEGER"
+            }
+        }
     },
     _goodsDetail = {
         "id": '1',
@@ -54,7 +183,6 @@ var _goodsList = {
 
 /*    _goodsDetail = {},*/
     _viewType = GoodsConstants.GOODS_LIST_VIEW;
-
 /*function setDetailGoods(id) {
  _.map(_goodsList.goods, function (item, key) {
  if (item.id == id) {
@@ -73,9 +201,6 @@ function errorLoadGoodsList(xhr, status, err) {
     _goodsList = {
         goods: []
     };
-}
-function loadGoodsList() {
-    requestSender.get(errorLoadGoodsList, successLoadGoodsList, AdminURL.ADMIN_GOODS_URL);
 }
 
 var GoodsStore = _.extend({}, EventEmitter.prototype, {
@@ -109,7 +234,7 @@ AppDispatcher.register(function (payload) {
         case GoodsConstants.GOODS_LIST_VIEW:
             _viewType = GoodsConstants.GOODS_LIST_VIEW;
             //TODO add REST request
-            GoodsStore.loadData();
+         /*   GoodsStore.loadData();*/
             GoodsStore.emitChange();
             break;
         case GoodsConstants.GOODS_DETAIL_VIEW:
