@@ -1,6 +1,3 @@
-/**
- * Created by opasichnyk on 3/25/2016.
- */
 var React = require("react");
 var GoodsActions = require("../../../actions/GoodsActions");
 //var lang = require("middlewares/localization");
@@ -13,10 +10,10 @@ var pictureConverter = function (picture) {
         return picture;
     }
     return DEFAULT_PICTURE;
-}
+};
 var priceConverter = function (price, currency) {
     return (price / 100).toFixed(2) + currency;
-}
+};
 
 var GoodsPreview = React.createClass({
     render() {

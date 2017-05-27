@@ -1,6 +1,3 @@
-/**
- * Created by opasichnyk on 5/4/2016.
- */
 var React = require('react'),
 
     Table = require('material-ui/lib/table/table'),
@@ -70,7 +67,7 @@ var GoodsDataTable = React.createClass({
                               labelPosition="after"
                               icon={<ContentSave/>}
                               style={{'margin': '20'}}/>
-            ]
+            ];
             return (
                 <div>
                     <Table multiSelectable={true}

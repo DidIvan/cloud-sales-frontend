@@ -1,6 +1,0 @@
-Copy file config.json out of project
-
-Start project TODO - migrate to webpack
-browserify -t babelify --standalone main views/main-confirm-registration.js -o public/main-confirm-registration.js
-browserify -t babelify --standalone main views/main-header.react.js -o public/main-header.react.js
-node bin/start-app.js

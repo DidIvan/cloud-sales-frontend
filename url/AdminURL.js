@@ -1,6 +1,3 @@
-/**
- * Created by olegls2000 on 8/1/2016.
- */
 
 module.exports = {
     ADMIN_MEASURE_URL: "/admin/measure-tab",

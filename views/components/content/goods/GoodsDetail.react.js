@@ -1,6 +1,3 @@
-/**
- * Created by opasichnyk on 3/25/2016.
- */
 var React = require("react"),
     GoodsActions = require("../../../actions/GoodsActions"),
     GoodsStore = require('../../../stores/GoodsStore');

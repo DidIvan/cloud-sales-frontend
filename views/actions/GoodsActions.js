@@ -1,7 +1,3 @@
-/**
- * Created by olegls2000 on 4/8/2016.
- */
-
 var AppDispatcher = require('../dispatcher/AppDispatcher'),
     GoodsConstants = require('../constants/GoodsConstant');
 
